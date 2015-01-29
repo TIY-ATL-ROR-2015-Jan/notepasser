@@ -1,31 +1,15 @@
 # Notepasser
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'notepasser'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install notepasser
+Pass notes to your friends with HTTP and ruby!
 
 ## Usage
 
-TODO: Write usage instructions here
+Run `bundle exec camping -s webrick -h YOUR_IP_ADDRESS lib/notepasser.rb`
+to get the server running. Have your friends write a client to send you
+messages with HTTParty. Add a short two to three line decription to this
+file's "API Calls" section whenever you add support for an API call.
 
-## Contributing
+The description should include the HTTP method to use,
+the route, and any parameters and what they do.
 
-1. Fork it ( https://github.com/[my-github-username]/notepasser/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+## API Calls
